@@ -22,9 +22,12 @@ Uses [**dotenv**](https://www.npmjs.com/package/dotenv) to load up environment v
 4. Open **.env**
   - add GitHub username, use your GitHub **token** as password
   - I recommend the following path: `DIRECTORY='../Documents/'`
-5. Open file explorer, and move **_.my_commands.sh_** to: `windows/Users/<your username >` and open **.bashrc** in the same location
+5. Open file explorer, and move **_.my_commands.sh_** to: `windows/Users/<your username >` 
+6. Open **.bashrc** in the same location
+  - Type: `source ~/.my_commands.sh`
   - If you don't have this file, open Git Bash and type: `echo "source ~/.my_commands.sh" >> ~/.bashrc`
-6. Restart your terminal
+7. Move the **Bash_VScode_Project_automation**-folder to the same location. Result: `windows/Users/<your username >/Bash_VScode_Project_automation`
+7. Restart your terminal
 
 ## Usage
 
