@@ -1,4 +1,4 @@
-# Shell : VScode - GitHub project automation
+# Shell : GitHub + VScode project automation
 
 Automate the process of creating a new project and adding it to GitHub with a single command.
 The command creates a new directory on your machine, initializes a Github repo with a README and pushes it to the configured Github account.
