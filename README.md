@@ -19,15 +19,12 @@ Uses [**dotenv**](https://www.npmjs.com/package/dotenv) to load up environment v
 1. Download / clone this project
 2. Open terminal in the project directory
 3. Run `npm i dotenv octonode`
-4. Change first line in function inside **_.my_commands.sh_** to reflect where this project was cloned
-5. Add your credentials and desired path to **_.env_**
-6. Steps to follow to make the command global:
-
-- Move **_.my_commands.sh_** to your HOME directory.. or add its contents to your custom commands file if you already have one
-- Add `source ~/.my_commands.sh` to your **_.bash_profile_** or **_.zshrc_** if you're also using ZSH
-- Restart your terminal
-
-7. **Optional**: [Setup VS Code launch from cli](https://code.visualstudio.com/docs/setup/mac)
+4. Open **.env**
+  - add GitHub username, use your GitHub **token** as password
+  - I recommend the following path: `DIRECTORY='../Documents/'`
+5. Open file explorer, and move **_.my_commands.sh_** to: `windows/Users/<your username >` and open **.bashrc** in the same location
+  - If you don't have this file, open Git Bash and type: `echo "source ~/.my_commands.sh" >> ~/.bashrc`
+6. Restart your terminal
 
 ## Usage
 
@@ -40,3 +37,7 @@ create <name of your project>
 ## Credits
 
 Copied from [boubacar-io](https://github.com/boubacar-io/project-creation-automation) -> inspired by KalleHallden's [ProjectInitializationAutomation](https://github.com/KalleHallden/ProjectInitializationAutomation) which uses Python.
+
+## Disclaimer
+
+I don't take responsibility for any faults related to this guide
