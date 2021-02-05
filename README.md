@@ -6,14 +6,18 @@ It then navigates to the newly created directory and runs `code .` to open your 
 
 ## Requirements
 
-Assumes you are using Node.js and npm and have them installed.
+* VScode
+* Git (Bash)
+* Node
+* dotenv
+* [Github API](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
 
 Uses [**dotenv**](https://www.npmjs.com/package/dotenv) to load up environment variables from the **_.env_** file and the Github API through [**octonode**](https://www.npmjs.com/package/octonode) which is '_a library for nodejs to access the github v3 api_'.
 
 ## Setup
 
-1. Clone this project
-2. Navigate to the project directory
+1. Download / clone this project
+2. Open terminal in the project directory
 3. Run `npm i dotenv octonode`
 4. Change first line in function inside **_.my_commands.sh_** to reflect where this project was cloned
 5. Add your credentials and desired path to **_.env_**
@@ -27,7 +31,7 @@ Uses [**dotenv**](https://www.npmjs.com/package/dotenv) to load up environment v
 
 ## Usage
 
-From a terminal window run
+From Git Bash
 
 ```
 create <name of your project>
@@ -35,4 +39,4 @@ create <name of your project>
 
 ## Credits
 
-I decided to do this using Node after I was inspired by KalleHallden's [ProjectInitializationAutomation](https://github.com/KalleHallden/ProjectInitializationAutomation) which uses Python.
+Copied from [boubacar-io](https://github.com/boubacar-io/project-creation-automation) -> inspired by KalleHallden's [ProjectInitializationAutomation](https://github.com/KalleHallden/ProjectInitializationAutomation) which uses Python.
