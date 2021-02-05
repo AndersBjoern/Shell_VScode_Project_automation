@@ -26,7 +26,7 @@ Uses [**dotenv**](https://www.npmjs.com/package/dotenv) to load up environment v
 6. Open **.bashrc** in the same location
   - Type: `source ~/.my_commands.sh`
   - If you don't have this file, open Git Bash and type: `echo "source ~/.my_commands.sh" >> ~/.bashrc`
-7. Move the **Bash_VScode_Project_automation**-folder to the same location. Result: `windows/Users/<your username >/Bash_VScode_Project_automation`
+7. Move the **Bash_VScode_Project_automation**-folder to the same location. Result: `windows/Users/<your username >/Shell_VScode_Project_automation`
 7. Restart your terminal
 
 ## Usage
